@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { register } from './serviceWorkerRegistration';
+import './assets/styles/css/main.css'
 
 window.addEventListener('beforeinstallprompt', (e) => {
   console.log('beforeinstallprompt event has fired')
